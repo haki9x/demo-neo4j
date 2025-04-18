@@ -1,0 +1,17 @@
+{
+  "header": {
+    "welcome": "FSS Welcome",
+    "settings": {
+      "status": "You are using English",
+      "lbl_language": "Language:",
+      "language_vi": "Vietnamese",
+      "language_en": "English",
+      "lbl_theme": "Theme:",
+      "theme_dark": "Dark",
+      "theme_light": "Light"
+    }
+  },
+  "msgApi": {
+    "__comment": "Declare all msg when receiving response data from Api"
+  }
+}

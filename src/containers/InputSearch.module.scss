@@ -1,0 +1,56 @@
+/* src/components/SymbolSearch.module.scss */
+.neo4jContainer {
+  font-family: 'Segoe UI', sans-serif;
+  color: red;
+  // min-height: 100vh;
+  width: 500px;
+  height: 60px;
+  display: inline-block;
+}
+
+// .MuiInputLabel-root {
+//   color: #ffffff; /* Màu nhãn của input */
+// }
+
+// .MuiOutlinedInput-root {
+//   background-color: #2a2a2a; /* Màu nền của input */
+//   border: 1px solid #555; /* Đường viền của input */
+//   border-radius: 4px;
+//   color: #fff; /* Màu chữ trong input */
+// }
+
+// .MuiOutlinedInput-root.Mui-focused {
+//   background-color: #333; /* Màu nền khi input được focus */
+// }
+
+// .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+//   border-color: #bbb; /* Màu của đường viền khi không focus */
+// }
+
+// .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+//   border-color: #fff; /* Màu của đường viền khi input được focus */
+// }
+
+// .MuiInputBase-input {
+//   padding: 10px 12px; /* Padding cho phần chữ trong input */
+// }
+
+// .MuiAutocomplete-root {
+//   width: 100%; /* Chiều rộng của Autocomplete */
+// }
+
+// .MuiAutocomplete-listbox {
+//   max-height: 200px; /* Giới hạn chiều cao của danh sách */
+//   overflow-y: auto; /* Cho phép cuộn dọc */
+// }
+
+.listItem {
+  font-size: 14px;
+  height: 100%;
+  background-color: #1d1a29;
+  top: -10px;
+  color: #e0e0e0;
+  &:hover {
+    background-color: #444; /* Màu nền khi hover vào mục trong list */
+  }
+}

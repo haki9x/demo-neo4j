@@ -1,0 +1,17 @@
+{
+  "header": {
+    "welcome": "FSS Xin Chào",
+    "settings": {
+      "status": "Bạn đang sử dụng tiếng việt",
+      "lbl_language": "Ngôn ngữ:",
+      "language_vi": "Tiếng Việt",
+      "language_en": "Tiếng Anh",
+      "lbl_theme": "Giao diện:",
+      "theme_dark": "Tối",
+      "theme_light": "Sáng"
+    }
+  },
+  "msgApi": {
+    "__comment": "Khai báo tất cả các msg khi nhận được dữ liệu phản hồi từ Api"
+  }
+}
