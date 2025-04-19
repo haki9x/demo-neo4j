@@ -1,4 +1,4 @@
 window.env = {
-    API_SERVER_URL: 'https://vdzhz3cb-3008.asse.devtunnels.ms',
+    API_SERVER_URL: 'https://demo-neo4j.vercel.app/',
     API_MARKET_URL: 'https://price.vixs.vn',
 }
