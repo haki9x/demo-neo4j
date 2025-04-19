@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import AdminLayout from './containers/AdminLayout';
 import ViewLayout from './containers/ViewLayout';
+import './index.css'
 
 function App() {
   return (
