@@ -4,6 +4,7 @@ import express, { Request, Response, NextFunction } from 'express';
 import path from 'path';
 import cors from 'cors';
 import neo4j, { Driver, Session } from 'neo4j-driver';
+import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 const buildDir = path.join(__dirname, '../build');
 const subDir = '/';
@@ -233,3 +234,8 @@ const port = process.env.PORT || 3008;
 app.listen(port, () => {
     console.log(`Neo4j App Server is listening on port ${port}`);
 });
+
+
+
+// Export Serverless Function
+export default (req: VercelRequest, res: VercelResponse) => app(req, res);
